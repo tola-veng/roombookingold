@@ -1,0 +1,55 @@
+/* customised css to overwrite the bootstrap css */
+
+/*
+File Name: customStyles.css
+Author: Janet Bott
+Date Created: 4 May 2015
+Last Updated:
+Description: CSS external screen stylesheet for exercises
+*/
+
+body {
+  font-family: arial, sans-serif;
+  background-color: #666666
+}
+
+/* Web Site Header */
+header {
+  margin-top: 2px;
+  padding: 10px 20px;
+  color: #666666;
+  background-color: #E0E0E0;
+  border-bottom: dotted 1px black;
+}
+
+/* Navigation */
+nav#nav-main{
+}
+
+/* Content */
+#content {
+  background-color: #F9F9F9;
+  padding: 20px 20px;
+  min-height: 550px;
+}
+#header-heading{
+	display : block;
+	float : left;
+}
+.link-logout{
+	display : block;
+	float : right;
+	text-decoration : none;
+}
+.link-logout:link, .link-logout:active, .link-logout:visited, .link-logout:hover{
+	text-decoration : none;
+}
+
+/* Footer */
+footer {
+  padding: 10px 20px;
+  font-size: 10pt;
+  background-color: #E0E0E0;
+  border-top: dotted 1px black;
+  color: #333333;
+}
