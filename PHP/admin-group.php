@@ -1,4 +1,6 @@
 <?php
+// test
+
 session_start();
 
 require_once('dbhandler.php');
