@@ -1,4 +1,6 @@
 <?php
+
+// change by me
 session_start();
 
 require_once('dbhandler.php');
